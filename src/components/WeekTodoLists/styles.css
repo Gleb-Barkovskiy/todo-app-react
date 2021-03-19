@@ -1,0 +1,10 @@
+.week-todo-wrapper {
+    display: grid;
+    grid-area: l;
+    margin-left: 5%;
+    width: 80%;
+    max-height: 800px;
+    scrollbar-width: 0px;
+    justify-content: center;
+    overflow-y: scroll;
+}

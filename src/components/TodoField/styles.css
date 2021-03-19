@@ -1,0 +1,53 @@
+.todo-wrapper {
+    border-radius: 20px;
+    margin: 5%;
+    width: 400px;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 27px #ccc;
+}
+.todo-content {
+    padding: 20px;
+}
+.todo-content-title {
+    padding: 15px;
+    line-height: 10%;
+}
+.todo-content-items {
+    padding: 1.5rem;
+}
+.todo-content-item {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+
+.todo-inp-cbx {
+    width: 1.5em;
+    height: 1.5em;
+}
+.todo-inp-cbx + label {
+    font-size: large;
+    padding: 0.5em;
+}
+.todo-inp-cbx:checked + label {
+    text-decoration: line-through;
+}
+.todo-delete-button {
+    width: 2em;
+    height: 2em;
+    color: white;
+    background-color: rgb(211, 84, 84);
+    outline: none;
+    border: 1px white;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.todo-delete-button:hover {
+    transition: 0.5s;
+    background-color: red;
+    outline: none;
+}
