@@ -1,6 +1,6 @@
 Todo app
 
-The app is made for the purpose of getting acquainted with Modx
+The app is made for the purpose of getting acquainted with Mobx
 
 To start a project, use "yarn start" or "npm start" in the project folder
 
