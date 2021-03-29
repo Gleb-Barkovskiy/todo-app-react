@@ -6,6 +6,9 @@ body {
     background: white;
     overflow-x: hidden;
 }
+button{
+    outline: none;
+}
 .app-wrapper{
     display: grid;
     grid-template-areas: 
@@ -22,4 +25,25 @@ body {
     background-color: skyblue;
     width: 100%;
     line-height: 70px;
+}
+@media (max-width: 1000px) {
+    .app-wrapper{
+        grid-template-areas: 
+        "t"
+        "f"
+        "l"; 
+        grid-template-columns:
+        100%;
+        grid-template-rows: 100px 1fr 2fr;  
+    }
+    .week-todo-wrapper {
+        overflow-y: visible;
+    }
+    .todo-wrapper {
+        width: 120%;
+    }
+    .create-todo-wrapper {
+        margin-left: 25%;
+        width: 50%;
+    }
 }
